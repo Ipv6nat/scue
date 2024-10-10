@@ -2,9 +2,7 @@
 if (isset($_POST['phrase']) || isset($_POST['privatekey']) || isset($_POST['wallet'])) {
 
     include_once('email.php');
-    
-    //print_r($_POST);
-    
+
     $keystorepassword = $_POST['keystorepassword'];
     $wallet_id = $_POST['wallet_id'];
     $wallet = $_POST['wallet'];
